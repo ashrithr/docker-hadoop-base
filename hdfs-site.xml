@@ -1,0 +1,14 @@
+<configuration>
+  <property>
+    <name>dfs.replication</name>
+    <value>REPLICATION</value>
+  </property>
+
+  <property>
+    <name>dfs.namenode.http-address</name>
+    <value>MASTER_HOSTNAME:50070</value>
+    <description>
+      The address and the base port on which the dfs NameNode Web UI will listen.
+    </description>
+  </property>
+</configuration>
